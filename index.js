@@ -10,9 +10,10 @@ app.use(bodyParser.json());   //parses the request body
 app.use(cookieParser());
 
 
+
 app.get("/ram",(req,res)=>{
     return res.status(200).json({
-        message: "HOME PAGE"
+        message: "HOME PAGE pr welcome h"
     });
 });
 
